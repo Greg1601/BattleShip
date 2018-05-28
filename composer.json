@@ -1,0 +1,22 @@
+{
+    "name": "greg/obattleship",
+    "description": "jeu",
+    "type": "project",
+    "authors": [
+        {
+            "name": "greg",
+            "email": "greg@oclock.io"
+        }
+    ],
+
+    "require": {
+      "altorouter/altorouter": "^1.2",
+      "league/plates": "^3.3",
+      "symfony/var-dumper": "^4.0"
+    },
+    "autoload": {
+      "psr-4": {
+        "BattleShip\\": "src/"
+      }
+    }
+}
